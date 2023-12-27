@@ -602,7 +602,7 @@ textarea.form-control {
 
 /* /social icons */
 .navigation {
-  padding: 20px 100px;
+  padding: 10px 100px;
   transition: 0.3s ease;
 }
 .navigation.nav-bg {
@@ -616,6 +616,15 @@ textarea.form-control {
 
   .navbar-brand img {
     width: 275px;
+  }
+}
+@media (max-width: 767px) {
+  .navigation.nav-bg {
+    padding: 10px 5px;
+  }
+
+  .navbar-brand img {
+    width: 225px;
   }
 }
 @media (max-width: 991px) {
