@@ -1228,13 +1228,17 @@ footer .overlay-image {
   height: 590px;
 }
 
-section .banner .bg-media {
-  background-image: url("images/Landing-page-bg.gif");
+.bg-media {
+  background-image: url("../images/landing-page-bg.gif");
+  position: absolute;
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
 }
 
 @media only screen and (max-width: 767px) {
-  section .banner .bg-media {
-    background-image: url("images/landing-mobile-bg.png");
+  .bg-media {
+    background-image: url("../images/landing-mobile-bg.png");
   }
 
   .register-btn {
